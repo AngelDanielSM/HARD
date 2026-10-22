@@ -1,0 +1,1 @@
+{"name":"arneses-lab","private":true,"scripts":{"dev":"concurrently -k -n servidor,cliente -c blue,green \"pnpm --dir servidor dev\" \"pnpm --dir cliente dev\"","install:all":"pnpm --dir servidor install && pnpm --dir cliente install"},"devDependencies":{"concurrently":"^9.1.2"}}
